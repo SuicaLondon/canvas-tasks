@@ -4,7 +4,10 @@ import React, { useEffect, useRef } from "react";
 type CanvasProps = {
   width: number;
   height: number;
-  render: (context: CanvasRenderingContext2D) => void;
+  render: (
+    context: CanvasRenderingContext2D,
+    canvas: HTMLCanvasElement
+  ) => void;
 };
 
 export function Canvas({ render, width, height }: CanvasProps) {
@@ -14,7 +17,7 @@ export function Canvas({ render, width, height }: CanvasProps) {
     const canvas = canvasRef.current;
     if (canvas !== null) {
       const context = canvas?.getContext("2d");
-      if (context) render(context);
+      if (context) render(context, canvas);
     }
   }, [render]);
 
