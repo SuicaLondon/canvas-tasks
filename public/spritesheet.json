@@ -1,0 +1,20 @@
+{
+  "a": {
+    "position": { "x": 98, "y": 64 },
+    "size": { "width": 47, "height": 43 },
+    "offset": { "x": 40, "y": 43 },
+    "sourceSize": { "width": 128, "height": 128 }
+  },
+  "b": {
+    "position": { "x": 147, "y": 64 },
+    "size": { "width": 43, "height": 46 },
+    "offset": { "x": 12, "y": 10 },
+    "sourceSize": { "width": 64, "height": 64 }
+  },
+  "c": {
+    "position": { "x": 98, "y": 64 },
+    "size": { "width": 47, "height": 43 },
+    "offset": { "x": 40, "y": 43 },
+    "sourceSize": { "width": 96, "height": 32 }
+  }
+}
