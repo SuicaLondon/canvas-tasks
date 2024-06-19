@@ -18,7 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx(inter.className, "min-h-screen")}>
+      <body
+        className={clsx(
+          inter.className,
+          "min-h-screen flex flex-col items-center"
+        )}
+      >
         <Header />
         {children}
       </body>

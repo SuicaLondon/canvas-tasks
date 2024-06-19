@@ -4,7 +4,7 @@ import { HeaderLink } from "./header-link";
 
 export function Header() {
   return (
-    <header className="bg-white">
+    <header className="bg-white w-full">
       <div
         className="justify-between items-center flex w-auto"
         id="mobile-menu-2"
